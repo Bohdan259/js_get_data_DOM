@@ -1,6 +1,5 @@
 'use strict';
 
-function calculatePopulation() {
   const population = [...document.querySelectorAll('.population')];
   const total = document.querySelector('.total-population');
   const averagePopulation = document.querySelector('.average-population');
@@ -17,5 +16,4 @@ function calculatePopulation() {
     total.innerText = sum.toLocaleString();
     averagePopulation.innerHTML = average.toLocaleString();
   }
-}
-calculatePopulation();
+
